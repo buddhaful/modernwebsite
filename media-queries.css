@@ -1,0 +1,107 @@
+@media screen and (max-width: 1060px) {
+    .container {
+        width: 90%; /* static width container always stays at this width no matter what the window size */
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .half_container { /* provides a two column presentation */
+        width: 80%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .some_container { /* provides a two column presentation */
+        width: 80%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .most_container { /* provides a two column presentation */
+        width: 80%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    ul#menu li a.button {
+	/* this padding defines the size of the buttons */
+	padding: 20px 35px;
+    }
+    iframe {
+        width: 100%;
+    }
+    #title-page{ 
+        width: 100%; 
+        padding-top: 100px; /* provides a lot of space to view the background image */ 
+    }
+    #title-page h1 { 
+    padding-right: 30px;
+    }   
+    #splash {
+        height: 650px;
+        background-size: 1060px;
+    }
+    p {
+        font-size: 1em;
+    }
+}   
+
+@media screen and (max-width: 767px) {
+    ul#menu li a.button {
+	/* this padding defines the size of the buttons */
+	padding: 20px 15px;
+    }
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+    #title-page{ 
+        width: 100%; 
+        padding-top: 80px; /* provides a lot of space to view the background image */ 
+    }
+    #title-page h1 { 
+        font-size: 60px; 
+    } 
+    #splash {
+        height: 500px;
+        background-size: 767px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    ul#menu li a.button {
+	/* this padding defines the size of the buttons */
+	padding: 20px 10px;
+    font-size: 1em;
+    }
+     #title-page { 
+        width: 100%; 
+        padding-top: 50px; /* provides a lot of space to view the background image */ 
+    }
+    #title-page h1 { 
+        font-size: 40px; 
+    }
+      #splash {
+        height: 300px;
+        background-size: 480px;
+    }  
+}
+
+@media screen and (max-width: 429px) {
+    ul#menu li a.button {
+	/* this padding defines the size of the buttons */
+	padding: 20px 3px;
+    font-size: 0.9em;
+    }
+    #title-page { 
+        width: 100%; 
+        padding-top: 65px; /* provides a lot of space to view the background image */ 
+    }
+    #splash {
+        height: 280px;
+        background-size: 429px;
+    }
+    #sidebar {
+	width: 200px;
+	}
+}  
